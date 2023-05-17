@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@700&family=Kavoon&family=Roboto:wght@900&display=swap');
+*{
+    padding: 0%;
+    border: 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 366px;
+    height: 437px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    position: relative;
+    top: 200px;
+    
+
+}
+button{
+    position: relative;
+    background-color: #5C85D4;
+    padding: 10px;
+    width: 200px;
+    border-radius: 50px;    
+    justify-content: center;
+    top: 170px;
+    font-family: Roboto;
+    font-size: 30px;
+    color: white;
+}
+
+.oi .japa{
+    position: absolute;
+    top: 160px;
+}
+h1{
+    position: absolute;
+    top: 225px;
+    font-family: Roboto;
+}
+p{
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    font-family: Roboto;
+}
+button :hover{
+    background-color: #0054fd;
+}
